@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200513123155_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200513123155_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200516035507_SeedingActivity.cs" />
+    <Compile Remove="Migrations\20200516035507_SeedingActivity.Designer.cs" />
+    <Compile Remove="Migrations\20200516044058_Test.cs" />
+    <Compile Remove="Migrations\20200516044058_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200516044529_SeedingActivity.cs" />
+    <Compile Remove="Migrations\20200516044529_SeedingActivity.Designer.cs" />
+    <Compile Remove="Migrations\20200713071934_AddedConsumerRelationship.cs" />
+    <Compile Remove="Migrations\20200713071934_AddedConsumerRelationship.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+#For Dotnet
+.vs
+bin
+obj
+Properties
+appsettings.Development
+appsettings
+*.json
+
+#This is test
