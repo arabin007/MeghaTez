@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="CloudinaryDotNet" Version="1.10.0" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.6.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.34.0" />
   </ItemGroup>
 
   <ItemGroup>
